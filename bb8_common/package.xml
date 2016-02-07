@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>bb8_common</name>
+  <version>0.0.0</version>
+  <description>The bb8_common metapackage</description>
+
+  <maintainer email="imcmahon01@gmail.com">Ian McMahon</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>bb8_description</build_depend>
+  <build_depend>bb8_msgs</build_depend>
+  <run_depend>bb8_description</run_depend>
+  <run_depend>bb8_msgs</run_depend>
+
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
